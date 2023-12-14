@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sign In - Your Web App</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">
+      <span class="team-name">WEB BUILDERS</span>
+      <img src="logo.jpg" alt="Team Logo">
+    </div>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link home">Home</a>
+      <a href="menu.html" class="nav-link">Menu</a>
+      <a href="signup.html" class="nav-link">Sign Up</a>
+      <a href="#" class="nav-link">Sign In</a>
+      <a href="cart.html" class="nav-link">Cart</a> <!-- Added Cart link -->
+    </div>
+  </nav>
+
+  <div class="content">
+    <h1>Sign In</h1>
+    <form id="signin-form">
+      <label for="usernameOrEmail">Username or Email:</label>
+      <input type="text" id="usernameOrEmail" name="usernameOrEmail" required><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+
+      <button type="submit" class="btn">Sign In</button>
+    </form>
+  </div>
+
+  <script src="scripts.js"></script>
+  <script src="signin.js"></script>
+</body>
+</html>
